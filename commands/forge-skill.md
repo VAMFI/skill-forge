@@ -91,7 +91,7 @@ When this command is invoked:
 2. Launch the skill-forge agent using the Task tool:
    ```
    Task tool
-   subagent_type: skill-forge
+   subagent_type: skill-forge:skill-forge
    prompt: "Create a skill for: [user's description]. Follow the complete research workflow. Ask about output location."
    ```
 3. Wait for the agent to complete
