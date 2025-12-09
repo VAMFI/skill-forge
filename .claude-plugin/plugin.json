@@ -1,0 +1,17 @@
+{
+  "name": "skill-forge",
+  "version": "1.0.0",
+  "description": "Autonomously create research-grounded, high-quality Claude Code skills by fetching official documentation and domain-specific sources before generation",
+  "author": {
+    "name": "VAMFI",
+    "email": "amba@vamfi.com"
+  },
+  "keywords": [
+    "skills",
+    "automation",
+    "research",
+    "documentation",
+    "meta-development"
+  ],
+  "license": "MIT"
+}
