@@ -1,0 +1,43 @@
+{
+  "name": "skill-forge-marketplace",
+  "description": "VAMFI Skill Forge - Research-grounded skill creation for Claude Code",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "skill-forge",
+      "version": "1.0.0",
+      "description": "Autonomously create research-grounded, high-quality Claude Code skills by fetching official documentation before generation. Never hallucinate - every fact is verified and cited.",
+      "author": "VAMFI",
+      "repository": "https://github.com/VAMFI/skill-forge",
+      "homepage": "https://github.com/VAMFI/skill-forge",
+      "license": "MIT",
+      "keywords": [
+        "skills",
+        "automation",
+        "research",
+        "documentation",
+        "meta-development",
+        "skill-creator"
+      ],
+      "categories": [
+        "Development",
+        "Automation",
+        "AI Tools"
+      ],
+      "components": {
+        "agents": 1,
+        "commands": 1,
+        "skills": 1,
+        "hooks": 0
+      },
+      "features": [
+        "Research-first architecture",
+        "Source verification and citation",
+        "Official Anthropic skill format",
+        "Progressive disclosure patterns",
+        "DeepWiki + Context7 + WebSearch integration"
+      ],
+      "path": "."
+    }
+  ]
+}

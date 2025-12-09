@@ -24,11 +24,28 @@ Unlike template-based skill creation, Skill Forge researches official documentat
 
 ## Installation
 
-```bash
-# Clone or copy to your plugins directory
-cp -r skill-forge ~/.claude/plugins/
+### One-Liner (Recommended)
 
-# Or use with --plugin-dir
+```bash
+claude --add-plugin https://github.com/VAMFI/skill-forge
+```
+
+### Alternative Methods
+
+**Via Git Clone:**
+```bash
+git clone https://github.com/VAMFI/skill-forge ~/.claude/plugins/skill-forge
+```
+
+**Manual Download:**
+```bash
+# Download and extract to plugins directory
+curl -L https://github.com/VAMFI/skill-forge/archive/main.tar.gz | tar -xz -C ~/.claude/plugins/
+mv ~/.claude/plugins/skill-forge-main ~/.claude/plugins/skill-forge
+```
+
+**Per-Session Usage:**
+```bash
 claude --plugin-dir /path/to/skill-forge
 ```
 
